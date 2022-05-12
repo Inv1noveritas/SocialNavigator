@@ -1,0 +1,38 @@
+.PetrSU {
+	font-size: 1.5vw;
+}
+
+.Sn {
+	font-size: 2vw;
+	font-weight: 400;
+}
+
+.nav div a 
+{
+	padding:0 0.8vw;
+	font-size: 1.2vw;
+}
+
+.Left {
+	font-size: 1.2vw;
+}
+
+.Right {
+	font-size: 1.2vw;
+}
+
+.Teext {
+	font-size: 1.3vw;
+}
+
+#nameRight {
+	font-size: 1.5vw;
+}
+
+#nameLeft {
+	font-size: 1.5vw;
+}
+
+.footer {
+	font-size: 1.3vw;
+}

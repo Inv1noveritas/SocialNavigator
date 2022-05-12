@@ -1,0 +1,75 @@
+input, textarea, select {
+	/* Убедимся, что все поля имеют одинаковые настройки шрифта
+	По умолчанию в textarea используется моноширинный шрифт */
+	font: 1em sans-serif;
+
+	/* Определим размер полей */
+	width: 300px;
+	box-sizing: border-box;
+		
+	/* Стилизуем границы полей */
+	border: 1px solid #999;
+			
+	padding: 10px;
+	margin:20px 0; // add top and bottom margin
+	border:0;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+	border-radius:20px;
+}
+
+input:focus, textarea:focus, select:focus {
+	/* Дополнительная подсветка для элементов в фокусе */
+	border-color: #000;
+}
+
+.ll {
+	font-size: 25px;
+	display: inline-block;
+	width: 30%;
+	margin-left: 7.3vw;
+}
+
+body {
+	font-family: 'Gardens';
+}
+
+.grg {
+	margin-top: 8vh;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#legend {
+	font-size: 25px; 
+	margin-left: 10vw;
+	margin-top: 4vh;
+	font-family: 'Gardens';
+	
+}
+
+#forma {
+	margin-left: 25vw;
+	width: 50vw;
+	border: 1px solid #CDCDCD;
+	border-radius:20px;
+}
+
+#legend {
+	font-family: 'Gardens';
+}
+
+#loggin {
+	margin-top: -1vh;
+	font-size: 25px; 
+	font-family: 'Gardens';  
+	background: rgba(0, 203, 132, 0.2);
+}
+
+@font-face 
+{ 
+	font-family: 'Gardens';  
+	src: url("gardens.ttf") format("truetype"); /* все современные браузеры */
+	font-style: normal; 
+	font-weight: normal; 
+} 
